@@ -4,10 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>장혜린 웹페이지</title>
+
+    <!-- 내부 스타일 시트-->
+    <style>
+     /* p{background-color: #6b5942; opacity: 0.5; color: rgb(0, 255, 102);} span{color: hotpink;} */
+     /* div{background-color: red;} */
+    </style>
+
+    <!--외부 스타일 시트-->
+    <link rel="stylesheet" href="./style.css">
+
   </head>
   <body>
     <!-- 주석 단축키: crtl+/ -->
     <p>안녕하세요. 저는 장혜린입니다.</p>
+    <div id="text-block">
+      <p class="text-box">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, <span>saepe</span> sapiente atque eos asperiores illo beatae quae <span>dignissimos</span> laudantium nihil laborum perferendis eaque quisquam veniam, maxime non ratione assumenda animi.</p>
+    </div>
     <h2>웹 개발 목록 (순서가 없는 리스트)</h2>
     <ul>
       <li>
@@ -18,7 +31,7 @@
       <li>java</li>
       <li>css</li>
     </ul>
-    <h2>내 aI 순위(순서가 있는 리스트)</h2>
+    <h2 class="text-box">내 aI 순위(순서가 있는 리스트)</h2>
     <ol>
       <li>cat gpt</li>
       <li>claude</li>
@@ -27,7 +40,7 @@
 <br />
 <form action="check  "></form>
 
-    <div>
+    <div id="image-box">
       <img
         src="https://img2.daumcdn.net/thumb/R658x0.q70/?fname=https://t1.daumcdn.net/news/202609/13/SpoChosun/20260913190555561xchd.jpg"
         alt="김도영 복귀 경기 이미지"
@@ -56,7 +69,7 @@
     <h1>it's h1</h1>
     <h2>it's h2</h2>
     <h3>it's h3</h3>
-    <h4>it's h4</h4>
+    <h4 class="text-box">it's h4</h4>
     <h5>it's h5</h5>
     <h6 style="font-size: 10pt">it's h6</h6>
 
@@ -70,7 +83,7 @@
     <p>
       Lorem ipsum dolor, sit amet consectetur adipisicing elit.
       <span style="color: crimson; background-color: black">
-        <strong> Tempore </strong></span
+        Tempore </span
       >, dolorem!
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam libero quae repudiandae cum nisi, asperiores deserunt animi nulla porro dolorum nostrum officia quis a velit in? Cupiditate, corporis veritatis consequatur nihil vero eveniet hic autem libero provident nam, voluptatum ex odit eius pariatur alias! Adipisci magni corrupti dolores necessitatibus consectetur!</p>
     </p>
